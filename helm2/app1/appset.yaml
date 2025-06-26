@@ -8,17 +8,17 @@ spec:
   generators:
     - git:
         repoURL: https://github.com/mteodor/argocd-example-apps
-        revision: syncstep-multisource
+        revision: master
         files:
           - path: helm2/app1/*/*/values.yaml
   template:
     metadata:
       name: '{{.path.basename}}'
       labels:
-        harness.io/envRef: test
-        harness.io/serviceRef: test2
+        harness.io/envRef: appset
+        harness.io/serviceRef: multisource
     spec:
-      project: 522b581b
+      project: d73a4830
       sources:
         - repoURL: https://github.com/mteodor/argocd-example-apps
           targetRevision: syncstep-multisource
