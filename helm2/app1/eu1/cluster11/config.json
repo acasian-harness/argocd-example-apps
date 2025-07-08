@@ -6,7 +6,7 @@
   },
   "releaseTag" : "1.15",
   "envTag" : "eu1",
-  "replicas" : "2",
+  "replicas" : "1",
   "serviceTag" : "helm",
   "containerPort" : {
     "http" : "1234"
