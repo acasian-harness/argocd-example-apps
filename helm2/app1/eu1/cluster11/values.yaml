@@ -5,3 +5,4 @@ containerPorts:
   http: 81
 test: "123"
 serviceTag: "multisource"
+replicas: 1
