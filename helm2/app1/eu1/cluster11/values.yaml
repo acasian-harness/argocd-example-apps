@@ -2,7 +2,7 @@ cluster:
   name: "cluster11"
 envTag: "eu1"
 testPorts:
-  http: 90
+  http: 1234
 common:
   envTag: "eu1"
   namespace: "alexc-argocd"
