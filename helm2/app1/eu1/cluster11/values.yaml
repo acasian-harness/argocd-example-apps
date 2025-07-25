@@ -12,3 +12,5 @@ containerPorts:
 deployment:
   envTag: "eu1"
   namespace: "alexc-argocd"
+testPorts:
+  http: 90
