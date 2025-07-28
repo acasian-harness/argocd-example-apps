@@ -1,17 +1,18 @@
-common: &common_values
-  envTag: "eu1"
-  namespace: "alexc-argocd"  
 cluster:
   name: "cluster11"
 envTag: "eu1"
+testPorts:
+  http: 1212
+common:
+  envTag: "eu1"
+  namespace: "alexc-argocd"
 test: "123"
-replicas: 1
+replicas: 2
 serviceTag: "multisource"
 containerPorts:
   http: 81
 anotherPorts:
-  http: 1111
-testPorts:
-  http: 2222  
+  http: 2323
 deployment:
-  <<: *common_values
+  envTag: "eu1"
+  namespace: "alexc-argocd"
