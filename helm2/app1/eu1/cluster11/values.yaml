@@ -2,17 +2,18 @@ cluster:
   name: "cluster11"
 envTag: "eu1"
 testPorts:
-  http: 1212
+  http: 1111
 common:
   envTag: "eu1"
   namespace: "alexc-argocd"
 test: "123"
-replicas: 2
+replicas: 1
 serviceTag: "multisource"
 containerPorts:
   http: 81
 anotherPorts:
-  http: 2323
+  http: 2216
 deployment:
   envTag: "eu1"
   namespace: "alexc-argocd"
+anything: "test"
