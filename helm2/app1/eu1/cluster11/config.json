@@ -11,5 +11,11 @@
   "serviceTag" : "helm",
   "containerPort" : {
     "http" : "1234"
+  },
+  "testPorts": {
+    "http": "80"
+  },
+  "anotherPorts": {
+    "http": "90"
   }
 }
