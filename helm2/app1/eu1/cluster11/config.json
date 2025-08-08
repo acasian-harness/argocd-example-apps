@@ -17,5 +17,8 @@
   },
   "anotherPorts": {
     "http": "90"
+  },
+  "portFromStep": {
+    "http": 70"
   }
 }
