@@ -6,6 +6,7 @@
   },
   "releaseTag" : "1.15",
   "envTag" : "eu1",
+  "imageTag": "asdf",
   "replicas" : "1",
   "serviceTag" : "helm",
   "containerPort" : {
