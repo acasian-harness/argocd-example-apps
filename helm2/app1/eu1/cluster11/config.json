@@ -21,5 +21,8 @@
   "imageTag" : "asdf",
   "anotherPorts" : {
     "http" : "58"
+  },
+  "testObject": {
+    "hello" : "world"
   }
 }
