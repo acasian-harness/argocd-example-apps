@@ -2,6 +2,7 @@ cluster:
   name: "cluster11"
 test: "123"
 replicas: 2
+overrideTest: "helloworld"
 anotherPorts:
   http: 3333
 anything: "test"
@@ -19,4 +20,3 @@ containerPorts:
 deployment:
   envTag: "eu1"
   namespace: "alexc-argocd"
-overrideTest: "val"  
