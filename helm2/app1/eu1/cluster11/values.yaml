@@ -3,6 +3,7 @@ cluster:
 test: "123"
 replicas: 2
 overrideTest: "helloFromHGEOverride"
+overrideFromDiffEnv: "helloFromRepo"
 anotherPorts:
   http: 3333
 anything: "test"
