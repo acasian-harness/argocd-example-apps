@@ -4,6 +4,8 @@ test: "123"
 replicas: 2
 overrideFromDiffEnv: "test"
 overrideTest: "test"
+overrideVar2: "test"
+overrideVar3: "test"
 anotherPorts:
   http: 3333
 anything: "test"
