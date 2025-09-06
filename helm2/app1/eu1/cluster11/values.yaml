@@ -2,8 +2,8 @@ cluster:
   name: "cluster11"
 test: "123"
 replicas: 2
-overrideFromDiffEnv: "test"
-overrideTest: "test"
+overrideFromDiffEnv: "overrideFromDiffEnvFromService"
+overrideTest: "ovverrideTestFromEnv"
 anotherPorts:
   http: 3333
 anything: "test"
