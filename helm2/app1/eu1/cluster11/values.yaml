@@ -3,7 +3,7 @@ cluster:
 overrideVar2: "overrideVar2Env"
 test: "123"
 replicas: 2
-overrideFromDiffEnv: "overrideFromDiffEnvFromEnv"
+overrideFromDiffEnv: "overrideFromDiffEnvFlask"
 overrideTest: "ovverrideTestFromEnv"
 overrideVar3: "overrideVar3Env"
 anotherPorts:
