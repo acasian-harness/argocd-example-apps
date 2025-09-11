@@ -6,6 +6,7 @@ metadata:
     app: second-simple-flask
 spec:
   replicas: 1
+  minReadySeconds: 15
   selector:
     matchLabels:
       app: second-simple-flask
