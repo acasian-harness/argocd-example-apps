@@ -1,1 +1,6 @@
 manifest_path: a1
+testPorts:
+  http: a2
+anotherPorts:
+  http: 3
+replicas: a1
