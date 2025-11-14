@@ -7,14 +7,15 @@
   "releaseTag" : "1.15",
   "replicas" : "3",
   "anotherPorts" : {
-    "http" : "234232"
+    "http" : "234229"
   },
   "envTag" : "eu1",
   "testPorts" : {
-    "http" : "342324"
+    "http" : "342322"
   },
+  "manifest_path" : "eu1",
   "portFromStep" : {
-    "http" : "2342342"
+    "http" : "2342340"
   },
   "serviceTag" : "helm",
   "testObject" : {
