@@ -5,16 +5,16 @@
     "name" : "cluster11"
   },
   "releaseTag" : "1.15",
-  "replicas" : "2",
+  "replicas" : "3",
   "anotherPorts" : {
-    "http" : "58"
+    "http" : "234232"
   },
   "envTag" : "eu1",
   "testPorts" : {
-    "http" : "70"
+    "http" : "342324"
   },
   "portFromStep" : {
-    "http" : "333"
+    "http" : "2342342"
   },
   "serviceTag" : "helm",
   "testObject" : {
