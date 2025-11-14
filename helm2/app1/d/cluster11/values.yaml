@@ -1,0 +1,6 @@
+manifest_path: d
+testPorts:
+  http: s
+anotherPorts:
+  http: 2
+replicas: a
