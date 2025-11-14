@@ -1,0 +1,8 @@
+{
+  "anotherPorts.http": "295",
+  "manifest_path": "\u003c+executionInput()\u003e",
+  "replicas": "1",
+  "portFromStep.http": "123",
+  "testPorts.http": "222",
+  "image_tag": "noop-job-2025.08.07_09.44.17-feab37608dcf449b6af2b9068f5ef535c59daa31"
+}
