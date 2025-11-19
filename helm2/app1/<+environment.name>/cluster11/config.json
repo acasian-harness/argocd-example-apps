@@ -1,8 +1,17 @@
 {
-  "anotherPorts.http": "33",
-  "manifest_path": "44",
-  "replicas": "1",
-  "portFromStep.http": "555",
-  "testPorts.http": "23",
-  "image_tag": "noop-job-2025.08.07_09.44.17-feab37608dcf449b6af2b9068f5ef535c59daa31"
+  "anotherPorts.http" : "33",
+  "manifest_path" : "33",
+  "testPorts" : {
+    "http" : "11"
+  },
+  "portFromStep" : {
+    "http" : "321"
+  },
+  "replicas" : "2",
+  "portFromStep.http" : "555",
+  "testPorts.http" : "23",
+  "image_tag" : "noop-job-2025.08.07_09.44.17-feab37608dcf449b6af2b9068f5ef535c59daa31",
+  "anotherPorts" : {
+    "http" : "22"
+  }
 }
