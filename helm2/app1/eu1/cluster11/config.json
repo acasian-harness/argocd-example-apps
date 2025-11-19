@@ -5,9 +5,9 @@
     "name" : "cluster11"
   },
   "releaseTag" : "1.15",
-  "replicas" : "1",
+  "replicas" : "2",
   "anotherPorts" : {
-    "http" : "29"
+    "http" : "15"
   },
   "spec" : [ {
     "container" : 333
@@ -16,7 +16,7 @@
   } ],
   "envTag" : "eu1",
   "testPorts" : {
-    "http" : "22"
+    "http" : "33"
   },
   "manifest_path" : "eu1",
   "portFromStep" : {
