@@ -25,5 +25,9 @@
     "http" : "1234"
   },
   "image_tag" : "noop-job-2025.08.07_09.44.17-feab37608dcf449b6af2b9068f5ef535c59daa31",
-  "imageTag" : "asdf"
+  "imageTag" : "asdf",
+  "spec": [
+    {"container": 1},
+    {"container": 2}
+  ]
 }
