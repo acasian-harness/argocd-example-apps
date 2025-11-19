@@ -7,15 +7,20 @@
   "releaseTag" : "1.15",
   "replicas" : "1",
   "anotherPorts" : {
-    "http" : "33"
-  },
-  "envTag" : "eu1",
-  "testPorts" : {
     "http" : "22"
   },
-  "manifest_path" : "44",
+  "spec" : [ {
+    "container" : 333
+  }, {
+    "container" : 2
+  } ],
+  "envTag" : "eu1",
+  "testPorts" : {
+    "http" : "32"
+  },
+  "manifest_path" : "22",
   "portFromStep" : {
-    "http" : "55"
+    "http" : "123"
   },
   "serviceTag" : "helm",
   "testObject" : {
@@ -25,9 +30,5 @@
     "http" : "1234"
   },
   "image_tag" : "noop-job-2025.08.07_09.44.17-feab37608dcf449b6af2b9068f5ef535c59daa31",
-  "imageTag" : "asdf",
-  "spec": [
-    {"container": 1},
-    {"container": 2}
-  ]
+  "imageTag" : "asdf"
 }
