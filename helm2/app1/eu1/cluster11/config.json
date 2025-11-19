@@ -7,16 +7,16 @@
   "releaseTag" : "1.15",
   "replicas" : "2",
   "anotherPorts" : {
-    "http" : "15"
+    "http" : "21"
   },
   "spec" : [ {
-    "container" : 333
+    "container" : 222
   }, {
     "container" : 2
   } ],
   "envTag" : "eu1",
   "testPorts" : {
-    "http" : "33"
+    "http" : "12"
   },
   "manifest_path" : "eu1",
   "portFromStep" : {
