@@ -7,12 +7,12 @@ overrideFromDiffEnv: overrideFromDiffEnvFromEnv
 overrideTest: ovverrideTestFromEnv
 overrideVar3: overrideVar3Env
 anotherPorts:
-  http: 32131
+  http: 2321
 anything: test
 envTag: eu1
 testPorts:
-  http: 2223
-manifest_path: '31231'
+  http: 3232
+manifest_path: '2323'
 common:
   envTag: eu1
   namespace: alexc-argocd
