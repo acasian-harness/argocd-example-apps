@@ -2,17 +2,17 @@ cluster:
   name: cluster11
 overrideVar2: overrideVar2Env
 test: 123
-replicas: 2
+replicas: 1
 overrideFromDiffEnv: overrideFromDiffEnvFromEnv
 overrideTest: ovverrideTestFromEnv
 overrideVar3: overrideVar3Env
 anotherPorts:
-  http: 432
+  http: 4444
 anything: test
 envTag: eu1
 testPorts:
-  http: 234
-manifest_path: eu2
+  http: 4234
+manifest_path: '444'
 common:
   envTag: eu1
   namespace: alexc-argocd
@@ -25,3 +25,4 @@ containerPorts:
 deployment:
   envTag: eu1
   namespace: alexc-argocd
+servicevariabletest: test
