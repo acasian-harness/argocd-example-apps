@@ -2,17 +2,17 @@ cluster:
   name: cluster11
 overrideVar2: overrideVar2Env
 test: 123
-replicas: 2
+replicas: 4444
 overrideFromDiffEnv: overrideFromDiffEnvFromEnv
 overrideTest: ovverrideTestFromEnv
 overrideVar3: overrideVar3Env
 anotherPorts:
-  http: 8888
+  http: 6666
 anything: test
 envTag: eu1
 testPorts:
-  http: 9999
-manifest_path: path
+  http: 5555
+manifest_path: oath2
 common:
   envTag: eu1
   namespace: alexc-argocd
