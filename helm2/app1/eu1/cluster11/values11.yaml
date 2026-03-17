@@ -1,0 +1,6 @@
+anotherPorts:
+  http: '2323.0'
+manifest_path: '23232'
+replicas: '1'
+testPorts:
+  http: '23232'
