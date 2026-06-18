@@ -5,18 +5,18 @@
     "name" : "cluster11"
   },
   "releaseTag" : "1.15",
-  "replicas" : "1",
+  "replicas" : "123",
   "anotherPorts" : {
-    "http" : "12"
+    "http" : "123"
   },
   "spec" : [ {
-    "container" : 222
+    "container" : 123
   }, {
     "container" : 2
   } ],
   "envTag" : "eu1",
   "testPorts" : {
-    "http" : "21"
+    "http" : "123"
   },
   "manifest_path" : "eu1",
   "portFromStep" : {
