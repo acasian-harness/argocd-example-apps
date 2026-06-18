@@ -7,7 +7,7 @@
   "releaseTag" : "1.15",
   "replicas" : "123",
   "anotherPorts" : {
-    "http" : "123"
+    "http" : "120"
   },
   "spec" : [ {
     "container" : 123
