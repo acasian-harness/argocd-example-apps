@@ -1,0 +1,9 @@
+{
+  "spec[0].container": "123",
+  "anotherPorts.http": "120",
+  "manifest_path": "eu1",
+  "replicas": "123",
+  "portFromStep.http": "123",
+  "testPorts.http": "123",
+  "image_tag": "noop-job-2025.08.07_09.44.17-feab37608dcf449b6af2b9068f5ef535c59daa31"
+}
