@@ -1,0 +1,9 @@
+anotherPorts:
+  http: '3'
+manifest_path: '4'
+replicas: '1'
+rolloutPhase:
+  image:
+    tag: 0.0.1
+testPorts:
+  http: '2'
